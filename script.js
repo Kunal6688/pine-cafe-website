@@ -1,6 +1,22 @@
 let menu = document.querySelector('#menu-bar');
 let navbar = document.querySelector('.navbar');
  
-menu.onclick=()=>{
-    menu.classList.toggle('fa-times');
-}
+
+                                        // SIDEBAR HIDE SHOW
+
+$("#menu-bar").click(function(){
+    const sidebar = $(".sidebar");
+    sidebar.css("display","flex");
+});
+
+$(".hide").click(function(){
+    const sidebar = $(".sidebar");
+    sidebar.css("display","none");
+});
+
+
+
+
+   
+
+
