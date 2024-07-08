@@ -16,7 +16,27 @@ $(".hide").click(function(){
 
 
 
+//------------------------------------------ Dark/Light Mode 
 
+var lightMode = true;
+
+
+$(".mode").click(function(){
+    if(lightMode===true){
+        lightMode=false;
+        $(".style").attr("href","darktheme.css");
+
+    }
+    else {
+        lightMode=true;
+        $(".style").attr("href","lightTheme.css");
+    }
+})
+
+
+// $("body").css("backgroundColor","white");
    
+// var a = $(".style").attr("href");
+// console.log(a);
 
-
+// var a = $(".style").attr("href","darktheme.css");
