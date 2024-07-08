@@ -34,9 +34,4 @@ $(".mode").click(function(){
 })
 
 
-// $("body").css("backgroundColor","white");
-   
-// var a = $(".style").attr("href");
-// console.log(a);
 
-// var a = $(".style").attr("href","darktheme.css");
