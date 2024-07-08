@@ -525,9 +525,11 @@ header .navbar a:hover{
 .steps .box{
     width: 200px;
     height: 200px;
-    margin-top: 6.5rem;
+    margin-top: 10rem;
     padding: 2rem;
     text-align: center;
+    margin-right: 3.5rem;
+
 }
 
 .steps .box img{
@@ -545,7 +547,9 @@ header .navbar a:hover{
     justify-content: center;
     color: #000;
     padding: 1rem 0;
+    margin-left: 4rem;
 }
+
 
 
 
